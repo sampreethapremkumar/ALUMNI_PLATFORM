@@ -1,0 +1,138 @@
+/* Register.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #E8F5F5;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #E8F5F5;
+  }
+  
+  .form-wrapper {
+    width: 350px;
+    padding: 30px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.1);
+    position: relative;
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: bold;
+    color: #4A5568;
+  }
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #2D3748;
+    font-weight: bold;
+  }
+  
+  .input-group {
+    margin-bottom: 20px;
+    position: relative;
+  
+  }
+  
+  .input {
+    width: 100%;
+    padding: 12px 15px;
+    padding-right: 200px; /* Space for the icon */
+    font-size: 14px;
+    border: 1px solid #CBD5E0;
+    border-radius: 5px;
+    color: #4A5568;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .input:focus {
+    border-color: #319795;
+  }
+  
+  .input-group .icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #A0AEC0;
+    
+  }
+  
+  .options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .options label {
+    font-size: 14px;
+    color: #4A5568;
+    display: flex;
+    align-items: center;
+  }
+  
+  .checkbox {
+    margin-right: 8px;
+  }
+  
+  .forgot-password {
+    font-size: 12px;
+    color: #319795;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .register-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #2F855A;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .register-button:hover {
+    background-color: #276749;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+    color: #4A5568;
+  }
+  
+  .footer .register-link {
+    color: #319795;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .footer .register-link:hover {
+    text-decoration: underline;
+  }
+  
